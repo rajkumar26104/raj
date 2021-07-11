@@ -1,0 +1,46 @@
+body
+	{
+		background: lightgrey;
+	}
+img	
+	{
+		height: 400px;
+		width: 300px;
+		border-color: grey;
+		border-radius: 10px;
+	}
+
+
+#container
+	{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		/*column-gap: 10px;*/
+	}
+#item
+	{
+		width: 300px;
+		height: 110px;
+		border-color: grey;
+		border-radius: 10px;
+		color: grey;
+	}
+header a:hover
+	{
+		color: white;
+	}
+
+header
+	{
+		margin-left: 100px;
+		margin-top: 100px;
+	}
+header a
+	{
+		color: gray;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 30px;
+		padding: 10px;
+	}
