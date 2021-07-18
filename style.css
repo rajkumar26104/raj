@@ -127,9 +127,25 @@ a:hover
 	color: #f1f1f1;
 	background-color: gray;
 }
-a img
+.split a img
 {
 	margin-top: 100px;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+}
+
+/* Educational detail page*/
+ .column2 tr th,td
+ {
+ 	border: 1px solid black;
+ 	color: #333;
+ 	width: 20%;
+ }
+
+.column2 a img
+{
+	margin-top: 20px;
 	width: 50px;
 	height: 50px;
 	border-radius: 10px;
